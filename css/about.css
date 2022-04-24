@@ -1,0 +1,57 @@
+nav.wrapper{
+    position: sticky!important;
+    top: 0;
+    z-index: 111;
+    background-color: #ffffff;
+}
+.wrapper{
+    position: relative!important;
+}
+.remove-info{
+    display: none;
+}
+
+
+/*About article*/
+
+.about-img{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.abt-art .about-img{
+    background-image: url(/images/bme.jpg);
+}
+.exec-art .about-img{
+    background-image: url(/images/fruits.jpg);
+}
+.comm-art .about-img{
+    background-image: url(/images/nice-girl.jpg);
+}
+.about-img h1{
+    position: absolute;
+    bottom: -5%;
+    left: 10%;
+    background-color: #D82148;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 2rem;
+}
+.abt-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+.abt-article ul{
+    list-style: none;
+}
+.abt-article .links li{
+    border: 1px solid #D82148;
+    padding: 10px;
+    margin: 10px 20px 10px 10px;
+    cursor: pointer;
+}
